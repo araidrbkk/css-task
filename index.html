@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-task</title>
+</head>
+<body>
+  <main>
+    <div class="conteiner">
+      <img src="img/bg.jpg" width="700px" height="900px">
+      <div class="conteiner-1">
+        <div class="info"> 
+         <h1>Get iintoo it today</h1>
+         <p>There is no charge or obligation upon registration.</p>
+         <form action="/">
+           <div class="socials">
+             <button class="facebook">
+              <img src="/img/facebook.svg">
+              Register with Facebook
+             </button>
+             <button class="linkedin">
+               <img src="/img/linkedin.svg">
+               Register with LinkedIn
+             </button>
+            </div>
+            <div class="or">
+              <p>or</p>
+            </div>
+            <div class="contacts">
+              <div class="secondline">
+                <label for="email" class="contacts_label">Email</label>
+                <input type="email" id="email" class="contacts_input" value="gus.goodwin@gmail.com">
+              </div>
+              <div class="secondline">
+                <label for="phone" class="contacts_label" value="">Phone</label>
+                <input type="text" id="phone" class="contacts_input" value="" >
+              </div>
+            </div>
+            <div class="middle">
+              <h2>What type of investor are you?</h2>
+              <p>Select the type of investor you are below.</p>
+            </div>
+            <div class="radio">
+              <div>
+                <label>
+                  <input type="radio" name="investor_type" class="radio-box">
+                  <span class="radio-style Individual"></span>
+                  Individual
+                </label>
+              </div>
+              <div>
+                <label>
+                  <input type="radio" name="investor_type" class="radio-box">
+                  <span class="radio-style"></span>
+                  Business
+                </label>
+              </div>
+              <div>
+                <label>
+                  <input type="radio" name="investor_type" class="radio-box">
+                  <span class="radio-style"></span>
+                  IRA
+                </label>
+              </div>
+              <div>
+                <label>
+                  <input type="radio" name="investor_type" class="radio-box">
+                  <span class="radio-style"></span>
+                  Trust
+                </label>
+              </div>
+            </div>
+            <div class="wrapper">
+              <textarea 
+              placeholder="I am a natural person investing on my own behalf as a sole owner, joint tenant or tenant in common."></textarea>
+            </div>
+            <div class="agreement">
+              <label>
+                <input type="checkbox" name="agreement" value="yes" class="last">
+                I agree to the terms and receiving notifications from iintoo <a href="/">View full terms</a>
+              </label>
+            </div>
+            <input type="button" class="input-button" value="Create Account">
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
